@@ -1,0 +1,25 @@
+{
+  "name": "google-keep-gnome-extension",
+  "version": "1.0.0",
+  "description": "GNOME extension for Google Keep integration",
+  "main": "extension.js",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "test": "gulp test"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@types/gnome-shell": "^5.3.2",
+    "google-auth-library": "^7.0.2",
+    "google-api-library": "^1.10.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
