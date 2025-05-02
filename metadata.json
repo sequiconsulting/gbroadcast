@@ -1,0 +1,8 @@
+{
+  "shell-version": [
+    "45"
+  ],
+  "uuid": "google-keep-gnome-extension@example.com",
+  "name": "Google Keep Notes",
+  "description": "Access your Google Keep notes from the GNOME desktop."
+}

@@ -1,25 +1,26 @@
 {
   "name": "google-keep-gnome-extension",
-  "version": "1.0.0",
-  "description": "GNOME extension for Google Keep integration",
+  "version": "0.1.0",
+  "description": "A GNOME extension to access Google Keep notes.",
   "main": "extension.js",
   "scripts": {
-    "build": "gulp build",
-    "watch": "gulp watch",
-    "test": "gulp test"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "keywords": [],
-  "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {
-    "@types/gnome-shell": "^5.3.2",
-    "google-auth-library": "^7.0.2",
-    "google-api-library": "^1.10.2"
-  },
+  "keywords": [
+    "gnome",
+    "extension",
+    "google",
+    "keep",
+    "notes"
+  ],
+  "author": "You",
+  "license": "GPL-3.0",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-typescript": "^6.0.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@gnome-shell/extension-utils": "^45.0.0"
   }
 }
